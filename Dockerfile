@@ -31,7 +31,7 @@ RUN echo \
 
 # Add files
 ADD files/nginx.conf /etc/nginx/nginx.conf
-ADD files/index.html /DATA/wwww/index.html
+ADD files/index.html /DATA/www/index.html
 
 # Entrypoint
 ADD start.sh /
