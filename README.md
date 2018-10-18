@@ -21,12 +21,11 @@ Firstly you need to create the necessary folders on your docker host. The contai
 ### To run it with LETENCRYPT:
 
     $ docker run  --name nginx.docker --expose 80 \
-	 -d -e "VIRTUAL_HOST=nginx.42strings.co.uk" \
- 	 -e "LETSENCRYPT_HOST=nginx.42strings.co.uk" \
-	 -e "LETSENCRYPT_EMAIL=info@42strings.co.uk \
+	 -d -e "VIRTUAL_HOST=go42.io,www.go42.io" \
+	 -e "LETSENCRYPT_HOST=go42.io,www.go42.io" \
+	 -e "LETSENCRYPT_EMAIL=charles.holtzkampf@gmail.com" \
 	 -v /data/sites/www.test.co.uk/mysql:/var/lib/mysql \
 	 -v /data/sites/www.test.co.uk:/DATA nginx.docker
-
 
 This will create a new DJANGO APP with the following values:
 
