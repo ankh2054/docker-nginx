@@ -13,6 +13,19 @@ ENV PACKAGES="\
   mariadb-dev \
   nginx \
   nano \
+  php7 \
+  php7-session \
+  php7-simplexml \
+  php7-zlib \
+  php7-fpm \
+  php7-cli \
+  php7-gd  \
+  php7-mcrypt \
+  php7-pdo_mysql \
+  php7-mysqli \
+  php7-curl \
+  php7-xml \
+  php7-json \
 "
 
 RUN echo \
