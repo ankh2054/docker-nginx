@@ -44,6 +44,7 @@ RUN echo \
 
 # Add files
 ADD files/nginx.conf /etc/nginx/nginx.conf
+ADD files/php-fpm.conf /etc/php/7.0/fpm/
 
 
 # Entrypoint
