@@ -32,6 +32,13 @@ command=/usr/sbin/nginx
 autorestart=true
 autostart=true
 
+[program:php-fpm]
+command=/usr/sbin/php-fpm7 --nodaemonize --fpm-config /etc/php/7.0/fpm/php-fpm.conf
+autorestart=true
+autostart=true
+
+numprocs=1
+
 
 EOF
 }
