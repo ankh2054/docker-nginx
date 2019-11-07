@@ -9,6 +9,9 @@ ENV PACKAGES="\
   linux-headers \
   build-base \
   ca-certificates \
+  python2 \
+  python2-dev \
+  py-setuptools \
   supervisor \
   mariadb-dev \
   nginx \
