@@ -12,6 +12,7 @@ ENV PACKAGES="\
   supervisor \
   nginx \
   nano \
+  py3-setuptools \
 "
 
 RUN echo \
