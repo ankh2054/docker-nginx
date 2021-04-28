@@ -13,7 +13,7 @@ Firstly you need to create the necessary folders on your docker host. The contai
 
 
 
-### To buld the docker django image:
+### To buld the docker nginx image:
 
 		$ cd django/
 		$ docker build https://github.com/ankh2054/docker-nginx.git -t nginx.docker 
