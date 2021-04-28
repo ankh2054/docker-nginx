@@ -1,6 +1,6 @@
-FROM alpine:3.6
+FROM alpine:3.12
 
-ENV ALPINE_VERSION=3.6
+ENV ALPINE_VERSION=3.12
 
 
 ENV PACKAGES="\
@@ -10,7 +10,6 @@ ENV PACKAGES="\
   build-base \
   ca-certificates \
   supervisor \
-  mariadb-dev \
   nginx \
   nano \
 "
