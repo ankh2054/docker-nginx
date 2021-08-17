@@ -20,7 +20,7 @@ Firstly you need to create the necessary folders on your docker host. The contai
 
 ### To run it with LETENCRYPT:
 
-    $ docker run  --name nginx.docker --expose 80 \
+    $ docker run --network=sentnl-net --name nginx.docker --expose 80 \
 	 -d -e "VIRTUAL_HOST=go42.io,www.go42.io" \
 	 -e "LETSENCRYPT_HOST=go42.io,www.go42.io" \
 	 -e "LETSENCRYPT_EMAIL=charles.holtzkampf@gmail.com" \
